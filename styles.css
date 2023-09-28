@@ -198,6 +198,29 @@
     font-size: 16px;
     line-height: 1.5;
   }
+
+  .about-image {
+    margin-right: 20px;
+}
+
+/*Added CSS for image gallery*/
+
+.about-image img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.image-gallery {
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-gallery img {
+    max-width: 45%;
+    height: auto;
+}
   
   /* CSS for resume page */
   
