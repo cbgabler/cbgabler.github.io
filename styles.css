@@ -19,7 +19,7 @@
     min-height: 100vh;
     padding: 0;
     margin: 0;
-    font-family: "Georgia", sans-serif;
+    font-family: "Roboto", serif;
     color: var(--text-color);
   }
   
@@ -65,7 +65,7 @@
     height: 3px;
     bottom: 0;
     left: 0;
-    background: linear-gradient(to right, transparent, var(--secondary-color), transparent);
+    background: linear-gradient(to right, transparent, var(--nav-text), transparent);
     transform: scaleX(0);
     transform-origin: bottom right;
     transition: transform 0.3s ease;
@@ -77,7 +77,7 @@
   }
   
   .logo a {
-    font-family: "Georgia", serif;
+    font-family: "Roboto", serif;
   }
   
   .logo a:hover {
@@ -96,10 +96,11 @@
     display: flex;
     justify-content: center;
     font-size: 40px;
-    font-family: "Georgia", serif;
+    font-family: "Roboto", serif;
   }
   
   /* CSS for portfolio grid */
+
 .project-container {
     display: flex;
     flex-direction: column;
@@ -119,20 +120,28 @@
   .project-link {
     width: 100%;
   }
+
+  .project-name {
+    font-weight: bold;
+    font-size: 20px;
+  }
   
   .project-image {
     object-fit: cover;
     width: 100%;
     height: auto;
     max-height: 500px;
+    border: 2px solid var(--nav-text);
+    padding: 0px;
+    border-radius: 5px;
   }
-  
-  .project-details {
-    background-color: var(--background-color);
-    width: 100%;
-    padding: 20px;
-    line-height: 1.5;
-  }
+
+  .project-description {
+    background-color: #FFFFFD;
+    padding: 10px;
+    border: 1px solid --nav-text;
+    border-radius: 5px;
+}
   
   .project-details a {
     color: var(--primary-color);
@@ -142,19 +151,13 @@
   }
   
   .project-details a:hover {
-    color: var(--secondary-color);
+    color: var(--nav-text);
     text-decoration: underline;
   }
   
   .project-details {
     font-weight: lighter;
   }
-  
-  .project-name {
-    font-weight: bold;
-    font-size: 20px;
-  }
-  
   
   /* CSS for home page */
   
@@ -164,19 +167,20 @@
     justify-content: space-between;
     padding: 20px;
     background-color: #f8f8f8;
-    border: 1px solid #ccc;
+    border: 2px solid var(--nav-text);
     border-radius: 5px;
   }
   
   .about-image img {
-    width: 244px;
-    height: 363px;
+    width: 220px;
+    height: 330px;
     border-radius: 3px;
   }
   
   .about-text {
     flex: 1;
     margin-left: 20px;
+    margin-right: 20px;
   }
   
   .about-text h2 {
@@ -189,10 +193,6 @@
     line-height: 1.5;
   }
   
-  .about-image {
-    margin-right: 20px;
-  }
-  
   /* Added CSS for image gallery */
   
   .image-gallery {
@@ -201,7 +201,7 @@
     align-items: center;
     background-color: #f8f8f8;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 2px solid var(--nav-text);
     margin-top: 10px;
     max-width: 600px;
   }
@@ -218,7 +218,7 @@
     border: none;
     color: var(--text-color);
   
-    font-family:"Georgia", sans-serif;
+    font-family:"Roboto", serif;
   
     padding: 5px 7px;
     text-align: center;
@@ -231,7 +231,7 @@
   }
   
   .resume h2 {
-    font-family: "Georgia", serif;
+    font-family: "Roboto", serif;
   }
   
   /* CSS for contact form */
@@ -239,7 +239,7 @@
   label {
     display: block;
     margin-bottom: 8px;
-    font-family: "Georgia", serif;
+    font-family: "Roboto", serif;
     font-weight: bold;
   }
   
