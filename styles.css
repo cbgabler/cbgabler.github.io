@@ -19,7 +19,7 @@
     min-height: 100vh;
     padding: 0;
     margin: 0;
-    font-family: "Arial", sans-serif;
+    font-family: "Georgia", sans-serif;
     color: var(--text-color);
   }
   
@@ -77,7 +77,7 @@
   }
   
   .logo a {
-    font-family: "Arial", serif;
+    font-family: "Georgia", serif;
   }
   
   .logo a:hover {
@@ -170,7 +170,8 @@
   }
   
   .about-image img {
-    max-width: 300px;
+    width: 244px;
+    height: 363px;
     border-radius: 3px;
   }
   
@@ -199,7 +200,7 @@
     display: none;
     justify-content: center;
     align-items: center;
-    background-color:var(--background-color);
+    background-color: #f8f8f8;
     padding: 10px;
     border: 1px solid #ccc;
     margin-top: 10px;
@@ -218,7 +219,7 @@
     border: none;
     color: var(--text-color);
   
-    font-family: "Arial", sans-serif;
+    font-family:"Georgia", sans-serif;
   
     padding: 5px 7px;
     text-align: center;
